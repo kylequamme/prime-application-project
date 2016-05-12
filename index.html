@@ -19,9 +19,9 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body ng-app>
-	<div class="container">
-		<h1>Kyle Quamme</h1>
-		<div class="paragraph">
+	<section class="container">
+		<header>
+			<h1>Kyle Quamme</h1>
 			<h4>10432 Johnson Ave S
 				<br>
 				Bloomington, MN 55437
@@ -30,7 +30,8 @@
 				<br>
 				kyle.quamme@gmail.com
 			</h4>
-      		</div>
+      		</header>
+		
       		<button type="button" class="btn btn-default btn-block" ng-click="showProfile = !showProfile"><h2>Profile</h2></button>
       		<div class="paragraph" style="text-align:center" ng-show="showProfile">
         		<br>
@@ -76,6 +77,6 @@
           			<li>Make out-bound calls to request service to provide exceptional value to customers</li>
         		</ul>
       		</div>
-    	</div>
+    	</section>
 </body>
 </html>
