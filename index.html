@@ -19,7 +19,7 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body ng-app>
-	<section class="container">
+	<main>
 		<header>
 			<h1>Kyle Quamme</h1>
 			<h4>10432 Johnson Ave S
@@ -32,13 +32,13 @@
 			</h4>
       		</header>
       		<button type="button" class="btn btn-default btn-block" ng-click="showProfile = !showProfile"><h2>Profile</h2></button>
-      		<detail class="paragraph" style="text-align:center" ng-show="showProfile">
+      		<detail style="text-align:center" ng-show="showProfile">
         		<br>
         		<h3><b>Analytical self starter with a stong attention to detail, able to troubleshoot complex problems and provide innovative solutions.</b></h3>
       		</detail>
       		<br>
       		<button type="button" class="btn btn-default btn-block" ng-click="showExperience = !showExperience"><h2>Professional Experience</h2></button>
-      		<detail class="paragraph" ng-show="showExperience">
+      		<detail ng-show="showExperience">
         		<br>
 			<h2>Quamme Services/qCreative</h2>
         		<hr>
@@ -76,6 +76,6 @@
           			<li>Make out-bound calls to request service to provide exceptional value to customers</li>
         		</ul>
       		</detail>
-    	</section>
+    	</main>
 </body>
 </html>
